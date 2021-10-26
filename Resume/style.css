@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #c4c4c4;
+    font-size: 14px;
+}
+
+.resume_wrapper{
+display: flex;
+width: 800px;
+margin: 50px auto;
+background: #fff;
+padding: 10px;
+}
+
+.resume_left{
+flex: 35%;
+background-color: rgb(14, 19, 22);
+height: 100%;
+color: #fff;
+padding-right: 10px;
+}   
+
+.resume_image{
+width: 100%;
+}
+
+.resume_right{
+flex: 65%;
+padding-left: 10px;
+}
+.resume_right .resume_title{
+    color: black;
+}
+.name{
+    font-weight: bold;
+    text-align: center;
+}
+.designation{
+    font-family: cursive;
+    text-align: center;
+    font-size: 16px;
+}
+
+.resume_right .resume_name .name{
+    font-size: 30px;
+    font: bold;
+    color: #000;
+}
+.resume_right .resume_name .designation{
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.resume_title{
+color: #fff;
+text-transform : uppercase;
+font-weight: bolder;
+font-size: 16px;
+margin-bottom: 10px;
+}
+
+.resume_info{
+    color: #8484b4;
+    justify-content: center;
+}
+.resume_item{
+    padding: 20px 0;
+    border-bottom: 1px solid #016cd1;
+}
+
+.resume_subtitle{
+    color: white;
+    margin-bottom: 2px;
+}
+
+
+.skills_list{
+    display: flex;
+    justify-content: space-between;
+}
+.skills_bar p{
+    position: relative;
+    width: 120px;
+    height: 20px;
+    background-color: white;
+
+}
+
+.skills_bar span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+.html_bar{
+width: 70%;
+background-color: red;
+}
+.css_bar{
+    width: 80%;
+    background-color: rgb(26, 156, 106);
+}
+.java_bar{
+    width: 80%;
+    background-color: rgb(73, 25, 92);
+}
+.javascript_bar{
+    width: 60%;
+    background-color: rgb(99, 11, 99);
+}
+.resume_data{
+    display:flex;
+}
+.resume_data .year{
+    padding-right: 20px;
+    width: 120px;
+    position: relative;
+}
+.resume_data .content{
+    width: cal(100%-120px);
+    padding-left: 35px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,244 @@
+html, body{
+    height:100%;
+    width: 100%;
+    margin:0px;
+    font-family: 'Robot',sans-serif;
+}
+
+*{
+box-sizing: boder-box;
+text-decoration:none;
+}
+
+.header{
+background-color: rgb(236, 158, 132);
+position:fixed;
+top:0;
+width:100%;
+padding:10px; 
+display:flex;
+align-items: center;
+}
+
+.headerLogo{
+flex: 1 !important;
+font-size: 25px;
+font-weight: 600;
+}
+
+.header div{
+    padding:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.selected{
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+.main{
+    width: 100%;
+    background-color: rgb(236, 158, 132);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 90px;
+    padding-bottom: 35px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.mainHeading{
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(41,41,41);
+}
+.mainContent{
+    padding-top: 20px;
+    max-width: 500px;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.hand{
+display: inline-block;
+animation: wiggle 0.4s infinite;
+}
+
+@keyframes wiggle {
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(6deg);}
+    50% {transform: rotate(0deg);}
+    75% {transform: rotate(-6deg);}
+    100% {transform: rotate(0deg);}
+}
+
+button{
+margin: 5px;
+height: 40px;
+width: 120px;
+padding: 5px 5px;
+font-weight: 700;
+font-size: 12px;
+color: #0c0d0e;
+border: 2px solid #b082be;
+border-radius: 10px;
+text-transform: capitalize;
+outline: 0;
+background-color:rgb(176, 224, 192) ;
+cursor: pointer;
+}
+
+.lbtn{
+    width: 40px;
+    border-radius: 22px;
+}
+
+.skills{
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 10px;
+    color: black;
+}
+
+.skillContent{
+    font-family: 'Raleway';
+    padding-bottom: 15px;
+    padding-top: 15px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.skillContainer{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.progress{
+    width:300px;
+    height: 6px;
+    background-color:rgb(65, 50, 50);
+    border-radius: 5px;
+}
+
+.progressBar{
+    width: 70%;
+    height: 5px;
+    background-color: rgb(200, 216, 60);
+    border-radius: 5px;
+}
+
+.liveActivityFlex{
+padding-left: 30px;
+padding-bottom: 30px;
+display: flex;
+max-width: 600px;
+margin: auto;
+justify-content: space-evenly;
+}
+
+.miniActivity{
+    width: 200px;
+    border-top: 5px solid rgb(209,59,59);
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px -1px rgba(0, 0, 0, 0.384);
+    -webkit-box-shadow: 0px 0px 6px -1px rgba(0, 0, 0, 0.384);
+    -moz-box-shadow:  0px 0px 6px -1px rgba(0, 0, 0, 0.384);
+    padding: 10px;
+    padding-bottom: 25px;
+    font-family: 'Raleway';
+    color: rgba(0, 0, 0, 0.705);
+}
+
+.miniActivityStats{
+    color: rgb(24, 22, 22);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: rgb(94, 94, 94);
+}
+
+.projectflex {
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: top;
+    text-align: left;
+}
+
+.projects {
+    width: 400px;
+    margin: 15px;
+}
+
+.myimg {
+    border-radius: 10px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.projectText {
+    display: inline-block;
+    text-align: justify;
+    font-family: 'Baloo Chettan 2', cursive;
+    color: rgb(82, 82, 82);
+    font-size: 14px;
+}
+
+.innerproject {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.skillLevel{
+    display: flex;
+    text-align: justify;
+}
+
+
+.skillName{
+    flex:1;
+    font-weight: bold;
+}
+
+.skillLev{
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 15px;
+    color: rgb(9, 67, 94);
+}
+
+.projectTitle {
+    flex:1;
+    font-weight: bold;
+}
+
+.date {
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 12px;
+    color: rgb(128, 128, 128);
+}
+
+.techstack {
+    display: flex;
+}
+
+.stack {
+    padding: 3px;
+    min-width: 75px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: space-evenly;
+    font-family: 'Baloo Chettan 2', cursive;
+    color: rgb(31, 25, 25);
+    margin: 5px;
+    font-size: 12px;
+}
