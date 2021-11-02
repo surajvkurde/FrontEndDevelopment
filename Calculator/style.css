@@ -1,0 +1,48 @@
+body{
+    background-image: url('calci.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.calContainer{
+    text-align: center;
+    margin-top: 23px;
+}
+
+table{
+    margin: auto;
+}
+
+input{
+font-size: 32px;
+border: 2px solid rgb(209, 68, 68);
+border-radius: 21px;
+margin-bottom: 20px;
+width: auto;
+text-align: center;
+}
+
+button{
+    font-size: 32px;
+    background: rgb(199, 221, 102);
+    height: 55px;
+    width: 113px;
+    margin: 3px;
+    border-radius: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.calculator{
+    border: 4px solid rgb(168, 44, 117);
+    border-radius:40px;
+    display: inline-block;
+    padding: 22px;
+    height: 450px;
+    margin : 6px;
+    background-color: rgb(151, 189, 204);
+}
+
+h1{
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
