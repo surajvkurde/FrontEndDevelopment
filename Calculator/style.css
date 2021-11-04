@@ -24,11 +24,12 @@ text-align: center;
 
 button{
     font-size: 32px;
-    background: rgb(199, 221, 102);
+    background: rgb(108, 151, 142);
     height: 55px;
     width: 113px;
     margin: 3px;
     border-radius: 20px;
+    border: 2px solid orangered;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -39,10 +40,10 @@ button{
     padding: 22px;
     height: 450px;
     margin : 6px;
-    background-color: rgb(151, 189, 204);
+    background-color: rgb(141, 218, 158);
 }
 
 h1{
-    font-size: 28px;
+    font-size: 38px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
