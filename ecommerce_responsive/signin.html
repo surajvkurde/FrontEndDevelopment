@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <title>MyStore-Signin </title>
+</head>
+<body>
+    <!--navbar top starts here-->
+    <nav class="navbar">
+        <div class="left">
+            <span>Welcome to MyStore</span><a href="register.html">Register</a>OR<a href="signin.html">Sign In</a>
+        </div>
+        <div class="right">
+            <i class="fa fa-facebook-official"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-whatsapp"></i>
+            <i class="fa fa-twitter-square"></i>
+            <i class="fa fa-pinterest-square"></i>
+        </div>
+    </nav>
+    <!--navbar top ends here-->
+
+    <section >
+        <form>
+            <centre><h1> Login Page</h1></centre><br><br>
+            <div class="signindiv">
+                <p><br><br>Sign In .. <br></p>
+                <br><br>
+                <label for="userid">User Id * : </label><br>
+                <input type="text" id="userid" name="userid" placeholder="Enter email id or mobile number" required=""><br>
+                <label for="userid">Password * : </label><br>
+                <input type="password" id="password" name="password" placeholder="Enter password" required><br>
+                <button type="submit" class="logbtn" onclick="signin.html">Login</button> 
+                <button type="button" class="cancelbtn"> Cancel</button><br><br>
+                <input type="checkbox" checked="checked"> Remember me                  
+                Forgot <a href="#"> password? </a>
+            </div>    
+        </form>
+    </section>
+
+    <footer>
+    <div>
+        <h1>Meri <span>Dukan</span></h1>
+        <p>Everything for Everyone</p>
+    </div>
+    <div>
+        <i class="fa fa-facebook-official"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-whatsapp"></i>
+            <i class="fa fa-twitter-square"></i>
+            <i class="fa fa-pinterest-square"></i>
+            <p><br>Designed by Suraj Kurde</p>
+    </div>
+    <div>
+        <p>
+            @2021 Copyright All rights Reserved
+        </p>
+    </div>
+</footer>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script type="text/javascript" href="index.js"></script>
+
+</body>
+</html>
